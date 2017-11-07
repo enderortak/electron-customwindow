@@ -1,0 +1,31 @@
+#title-bar{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 2rem;
+    background: #36363e;
+
+    -webkit-app-region: drag;
+}
+#window-action-buttons{
+    float: right;
+    & > .titlebar__action-button{
+        height: 2rem;
+        width: 2rem;
+        color: #8f8fa5;
+        line-height: 2rem;
+        cursor: default;
+        text-align: center;
+        &:hover{
+            background: #646472;
+            color: #c0c0e0;
+        }
+    }
+    & > #close-window-button:hover{
+        background: #d6001d;
+    }
+}
+#window-action-buttons > *{
+    display: inline-block;
+}

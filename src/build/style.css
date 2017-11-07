@@ -1,0 +1,33 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.css';
+body {
+  margin: 0; }
+
+body * {
+  box-sizing: border-box; }
+
+#title-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2rem;
+  background: #36363e;
+  -webkit-app-region: drag; }
+
+#window-action-buttons {
+  float: right; }
+  #window-action-buttons > .titlebar__action-button {
+    height: 2rem;
+    width: 2rem;
+    color: #8f8fa5;
+    line-height: 2rem;
+    cursor: default;
+    text-align: center; }
+    #window-action-buttons > .titlebar__action-button:hover {
+      background: #646472;
+      color: #c0c0e0; }
+  #window-action-buttons > #close-window-button:hover {
+    background: #d6001d; }
+
+#window-action-buttons > * {
+  display: inline-block; }
